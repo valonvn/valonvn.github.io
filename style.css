@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 
+.module {
+  height:  100%;
+  padding-top:  30%;
+  
+}
+
 body {
-    font-family: 'Roboto';
+     background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
     color: white;
+    font-family: 'Roboto';
     text-align: center;
-    background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
 }
 
 .links {
@@ -13,14 +19,14 @@ body {
 }
 
 .logo {
-  width:  100%;
-  
+    width: 100%;
+
 }
 
 .link {
     display: inline-block;
-	width: 5%;
-	height: 5%;
-    padding-right:  3%;
-    padding-left:  3%;
+    width: 5%;
+    height: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
