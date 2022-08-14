@@ -29,6 +29,16 @@ body {
   
 }
 
+a:link {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding:  13px 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transform: translateY(-350%);
+}
+
 
 .link-text {
   transform: translateY(-170%) translateX(0%);
