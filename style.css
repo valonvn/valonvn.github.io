@@ -15,18 +15,13 @@ body {
 
 .links {
     margin: auto;
-    text-align: center;
 }
 
-.logo {
-    width: 100%;
-}
 
 
 
 .link {
     display: inline-block;
-    width: 80pm;
-    height: 80px
-    padding-right: 5%;
+    
+
 }
