@@ -1,29 +1,42 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:700);
-
-.module {
-    height: 100%;
-    padding-top: 30%;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
-    color: white;
-    font-family: 'Roboto';
-    text-align: center;
+  background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
 }
 
-.links {
-    margin: auto;
+.logo {
+  margin-bottom:  20px;
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top:  20px;
+  text-align: center;
 }
 
-
-a {
-  text-decoration: none;
+.module {
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px solid white;
+  width: 20%;
+  height: 30px;
+  border-radius:  10px;
+  color:  white;
+  min-width: 200px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  display:  block;
+  margin-left:  auto;
+  margin-right:  auto;
 }
 
-.link {
-    display: inline-block;
-    
-
+.link-text {
+  transform: translateY(-190%) translateX(8%);
+  color:  white;
+  text-align: center;
 }
+
+.link-icon {
+  height:  100%;
+  width: 30px;
+  display: inline-block;
+}
+
