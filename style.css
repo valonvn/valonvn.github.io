@@ -18,11 +18,11 @@ body {
   margin-left:  auto;
   margin-right:  auto;
   display:  block;
-  width:  200px;
-  height:  30px;
+  width:  80px;
+  height:  80px;
   background:  rgba(255, 255, 255, 0.2);
   border:  2px solid white;
-  border-radius: 10px;
+  border-radius: 50px;
   margin-bottom: 10px;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
@@ -47,8 +47,8 @@ a:link {
 }
 
 .link-icon {
-  height:  100%;
-  width: 25px;
-  transform: translateX(-320%);
+  height:  70%;
+  width: 80%;
+  transform: translateY(20%);
 }
 
