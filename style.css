@@ -1,55 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Roboto+Condensed:wght@700&display=swap');
 
 body {
   background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 }
 
-.logo {
-  margin-bottom:  20px;
-  margin-left:  auto;
-  margin-right:  auto;
-  margin-top:  20px;
-  text-align: center;
-}
-
-.test {
-  margin-left:  auto;
-  margin-right:  auto;
-  display:  block;
-  width:  80px;
-  height:  80px;
-  background:  rgba(255, 255, 255, 0.2);
-  border:  2px solid white;
-  border-radius: 50px;
-  margin-bottom: 10px;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
-  
-}
-
-a:link {
-  background-color: rgba(255, 0, 0, 0);
-  padding: 60%;
+.title {
   color: white;
   text-align: center;
-  text-decoration: none;
-  border-radius:  50px;
-  display: inline-block;
-  transform:  translateY(-53px) translateX(-5px);
+  padding-top: 10%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-
-.link-text {
-  transform: translateY(-195%) translateX(0%);
-  color:  white;
+.title2 {
+  color: white;
   text-align: center;
+  padding-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.link-icon {
-  height:  70%;
-  width: 80%;
-  transform: translateY(20%);
+.sound {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  line-height: 5px;
 }
 
+.description {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  word-wrap: break-word;
+  font-size: 20px;
+}
