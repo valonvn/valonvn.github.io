@@ -1,37 +1,85 @@
-@import url('https://fonts.googleapis.com/css2family=Roboto+Condensed:wght@700&display=swap');
-
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/1007632534672253011/1007645900056834158/banner-blank.png");
-  background-repeat: no-repeat;  
+    background: #FFFFFF;
+    color: #FAFAFA;
+    text-shadow: 2px 2px #000000;
 }
 
-.title {
-  color: white;
-  text-align: center;
-  padding-top: 10%;
-  font-family: 'Roboto Condensed', sans-serif;
+html, body {
+    height: 100%;
+    overflow: hidden;
 }
 
-.title2 {
-  color: white;
-  text-align: center;
-  padding-top: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+#log {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px 15px;
+    padding-top: 100px;
 }
 
-.sound {
-  color: white;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-  word-wrap: break-word;
-  font-size: 20px;
-  line-height: 5px;
+#log>div {
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.0);
+    color: white;
+    padding: 5px 10px 10px;
+
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
-.description {
-  color: white;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-  word-wrap: break-word;
-  font-size: 20px;
+#log>div.deleted {
+    visibility: hidden;
+}
+
+.meta {
+    display: block;
+    line-height: 1em;
+}
+
+.message {
+    word-wrap: break-word;
+    line-height: 1.5em;
+    font-size: 1.0cm;
+}
+
+.item {
+  background: white;
+}
+
+.name {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+  
+}
+
+.colon {
+    display: none;
+}
+
+
+.badge {
+    float: right;
+    padding-left: 5px;
+    height: 0.8em;
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.1em;
+    background-size: contain;
+}
+
+#log .emote img {
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
+    vertical-align: top;
 }
